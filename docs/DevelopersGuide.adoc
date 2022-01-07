@@ -1612,7 +1612,7 @@ The `AccountForm` would then simply use that `AddressForm` in a subform definiti
 Here the subform information for the `:account/addresses` field indicates:
 
 * `::form/ui` - The UI component to use for editing the target(s).
-* `::form/can-delete-row?` - A lambda that receives the current parent (account) props and the a referred item. If
+* `::form/can-delete-row?` - A lambda that receives the current parent (account) props and a referred item. If
 it returns true then that item should show a delete button.
 * `::form/can-add-row?` - A lambda that receives the current parent (account). If
 it returns true then the UI should include some kind of add control for adding a new row (address). You can also
